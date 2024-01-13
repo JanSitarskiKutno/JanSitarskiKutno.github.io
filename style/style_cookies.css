@@ -1,0 +1,13 @@
+#cookie_popup {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    bottom: 10px;
+    padding: 15px;
+    min-height: 35px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: rgb(75, 175, 255);
+    border: solid;
+    border-width: 1px;
+}
