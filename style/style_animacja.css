@@ -1,0 +1,30 @@
+body {
+	user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+
+#main {
+	color: rgb(75, 175, 255);
+    text-align: center;
+    font-size: 120%;
+	animation: fade_in 1s ease-in infinite;
+}
+
+@keyframes fade_in {
+    0% {
+        color: rgb(75, 175, 255);
+    }
+    25% {
+        color: rgb(123, 175, 22);
+    }
+	50% {
+		color: rgb(75, 122, 124);
+	}
+	75% {
+		color: rgb(122, 122, 422);
+	}
+	100% {
+		color: rgb(75, 175, 255);
+	}
+}
