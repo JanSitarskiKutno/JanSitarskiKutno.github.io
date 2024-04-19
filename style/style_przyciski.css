@@ -1,0 +1,22 @@
+body {
+	user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+
+#buttons {
+    background-color: rgb(20, 20, 20);
+    color: rgb(75, 175, 255);
+    margin: auto;
+	margin-top: 5px;
+    padding: 5px;
+    z-index: 9999;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+}
+
+img {
+	width: 8%;
+	height: auto;
+}
